@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Percorso FLS/PCTO | Favoino Mario - Sezione L</title>
+  <meta name="description" content="Sito di presentazione del percorso FLS/PCTO del triennio di Favoino Mario, Sezione L, I.I.S. Einstein-De Lorenzo.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-line" id="scrollLine"></div>
+  <div class="background-grid" aria-hidden="true"></div>
+  <div class="orb orb-a" aria-hidden="true"></div>
+  <div class="orb orb-b" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar">
+      <a class="brand" href="#home" aria-label="Torna alla home">
+        <span class="brand-logo"><img src="assets/logo-scuola.png" alt="Logo ITIS Einstein - De Lorenzo"></span>
+        <span class="brand-copy">
+          <span>Percorso FLS/PCTO</span>
+          <strong>I.I.S. Einstein-De Lorenzo</strong>
+        </span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Apri menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#percorso">Percorso</a>
+        <a href="#timeline">Attività</a>
+        <a href="#competenze">Competenze</a>
+        <a href="#mappa">Mappa</a>
+        <a href="#conclusione">Conclusione</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Esame di Stato · indirizzo Informatica</p>
+        <h1>Il mio percorso FLS/PCTO nel triennio</h1>
+        <div class="student-badge" aria-label="Dati studente">
+          <span>Favoino Mario</span>
+          <span>Sezione L</span>
+          <span>I.I.S. Einstein-De Lorenzo</span>
+        </div>
+        <p class="hero-text">
+          Un racconto ordinato delle esperienze svolte dal terzo al quinto anno: progetti, orientamento,
+          sicurezza, innovazione, certificazioni e attività che mi hanno aiutato a collegare scuola,
+          tecnologia e futuro professionale.
+        </p>
+        <div class="typing-card" aria-live="polite">
+          <span>Ho sviluppato</span>
+          <strong id="typingText">competenze digitali</strong>
+        </div>
+        <div class="hero-actions">
+          <a class="btn primary" href="#timeline">Guarda il triennio</a>
+          <button class="btn ghost" id="printBtn" type="button">Versione stampa</button>
+        </div>
+      </div>
+
+      <aside class="hero-panel reveal" aria-label="Sintesi percorso">
+        <div class="panel-top">
+          <span class="status-dot"></span>
+          <span>Portfolio personale</span>
+        </div>
+        <div class="school-card">
+          <img src="assets/logo-scuola.png" alt="Logo scuola">
+        </div>
+        <div class="student-info">
+          <p>Studente</p>
+          <strong>Favoino Mario</strong>
+          <span>Classe 5ª · Sezione L</span>
+          <span>I.I.S. Einstein-De Lorenzo</span>
+        </div>
+        <div class="stats-grid">
+          <article>
+            <strong class="counter" data-target="3">0</strong>
+            <span>anni raccontati</span>
+          </article>
+          <article>
+            <strong class="counter" data-target="8">0</strong>
+            <span>attività principali</span>
+          </article>
+          <article>
+            <strong class="counter" data-target="200">0</strong>
+            <span>ore circa</span>
+          </article>
+        </div>
+        <div class="tech-strip">
+          <span>sicurezza</span><span>networking</span><span>innovazione</span><span>orientamento</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section intro" id="percorso">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Perché questo percorso</p>
+        <h2>Dalla teoria alla pratica</h2>
+        <p>
+          Il PCTO mi ha permesso di mettere in relazione quello che studio a scuola con situazioni concrete:
+          leggere e comunicare contenuti scientifici, osservare progetti innovativi, lavorare su competenze
+          tecniche e capire meglio quali capacità servono nel mondo dell'informatica.
+        </p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <span class="feature-icon red"></span>
+          <h3>Metodo</h3>
+          <p>Organizzare attività, rispettare scadenze, documentare il lavoro svolto e presentarlo in modo chiaro.</p>
+        </article>
+        <article class="feature-card reveal">
+          <span class="feature-icon yellow"></span>
+          <h3>Tecnologia</h3>
+          <p>Avvicinarsi a hardware, software, reti, sicurezza e strumenti digitali utili per un tecnico informatico.</p>
+        </article>
+        <article class="feature-card reveal">
+          <span class="feature-icon blue"></span>
+          <h3>Orientamento</h3>
+          <p>Capire meglio interessi, punti di forza e possibili strade future dopo la maturità.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="timeline">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Attività svolte</p>
+        <h2>Il triennio, anno per anno</h2>
+        <p>Ogni scheda contiene il periodo, le ore indicative e una descrizione utile da esporre all'orale.</p>
+      </div>
+
+      <div class="year-tabs reveal" role="tablist" aria-label="Filtra attività per anno">
+        <button class="tab active" type="button" data-filter="all">Tutto</button>
+        <button class="tab" type="button" data-filter="terzo">Terzo anno</button>
+        <button class="tab" type="button" data-filter="quarto">Quarto anno</button>
+        <button class="tab" type="button" data-filter="quinto">Quinto anno</button>
+      </div>
+
+      <div class="year-block reveal" data-year-block="terzo">
+        <div class="year-title">
+          <span>01</span>
+          <div>
+            <h3>Terzo anno</h3>
+            <p>Primo contatto con il percorso: sicurezza, divulgazione scientifica e attività digitali collegate alla scuola.</p>
+          </div>
+        </div>
+        <div class="cards-grid">
+          <article class="activity-card" data-year="terzo" data-title="Premio Asimov" data-date="07/11/2023 - 06/06/2024" data-hours="30 ore circa" data-detail="Attività legata alla lettura e alla divulgazione scientifica. Mi ha aiutato a migliorare comprensione, sintesi, scrittura e capacità di valutare un testo scientifico in modo personale.">
+            <div class="card-chip">divulgazione</div>
+            <h4>Premio Asimov</h4>
+            <p>Lettura, analisi e recensione di testi scientifici con attenzione alla comunicazione chiara.</p>
+            <footer><span>07/11/23 - 06/06/24</span><strong>30h</strong></footer>
+          </article>
+          <article class="activity-card" data-year="terzo" data-title="Progetto Scuola Aumentata" data-date="13/04/2024 - 04/06/2024" data-hours="24 ore circa" data-detail="Esperienza collegata alla Regione Basilicata e all'innovazione degli ambienti scolastici. Il progetto ha messo al centro l'uso consapevole delle tecnologie per rendere la scuola più moderna e interattiva.">
+            <div class="card-chip">digitale</div>
+            <h4>Progetto “Scuola Aumentata”</h4>
+            <p>Tecnologie, strumenti digitali e innovazione applicata agli ambienti di apprendimento.</p>
+            <footer><span>13/04/24 - 04/06/24</span><strong>24h</strong></footer>
+          </article>
+          <article class="activity-card" data-year="terzo" data-title="Corso sicurezza INAIL" data-date="10/04/2024" data-hours="4 ore" data-detail="Formazione obbligatoria sulla sicurezza nei luoghi di lavoro. È stata la base per affrontare le esperienze PCTO con maggiore consapevolezza dei rischi, dei comportamenti corretti e delle responsabilità personali.">
+            <div class="card-chip">sicurezza</div>
+            <h4>Corso sicurezza INAIL</h4>
+            <p>Formazione sui rischi, sulle regole di comportamento e sulla prevenzione negli ambienti di lavoro.</p>
+            <footer><span>10/04/24</span><strong>4h</strong></footer>
+          </article>
+        </div>
+      </div>
+
+      <div class="year-block reveal" data-year-block="quarto">
+        <div class="year-title">
+          <span>02</span>
+          <div>
+            <h3>Quarto anno</h3>
+            <p>Anno più tecnico: eventi di innovazione, continuazione del Premio Asimov e certificazione Cisco IT Essentials.</p>
+          </div>
+        </div>
+        <div class="cards-grid">
+          <article class="activity-card" data-year="quarto" data-title="Maker Faire 2024" data-date="26/10/2024" data-hours="7 ore circa" data-detail="Partecipazione a un contesto dedicato a innovazione, prototipazione, robotica e creatività digitale. È stata un'occasione per vedere applicazioni reali della tecnologia e collegarle alle materie di indirizzo.">
+            <div class="card-chip">innovazione</div>
+            <h4>Maker Faire 2024</h4>
+            <p>Esperienza tra prototipi, robotica, elettronica, stampa 3D e idee nate dal mondo maker.</p>
+            <footer><span>26/10/24</span><strong>7h</strong></footer>
+          </article>
+          <article class="activity-card" data-year="quarto" data-title="Premio Asimov" data-date="04/11/2024 - 10/06/2025" data-hours="30 ore circa" data-detail="Seconda esperienza con il Premio Asimov. Rispetto al terzo anno ho affrontato il lavoro con maggiore autonomia, curando meglio analisi, argomentazione e chiarezza nella recensione.">
+            <div class="card-chip">comunicazione</div>
+            <h4>Premio Asimov</h4>
+            <p>Approfondimento della divulgazione scientifica e della capacità di esprimere un giudizio motivato.</p>
+            <footer><span>04/11/24 - 10/06/25</span><strong>30h</strong></footer>
+          </article>
+          <article class="activity-card highlight" data-year="quarto" data-title="Corso + Certificazione Cisco IT Essentials" data-date="08/01/2025 - 03/06/2025" data-hours="70 ore circa" data-detail="Percorso tecnico su hardware, sistemi operativi, reti di base, troubleshooting e sicurezza. È l'attività più vicina all'indirizzo informatico perché collega teoria e competenze operative utili in laboratorio e nel lavoro.">
+            <div class="card-chip">certificazione</div>
+            <h4>Cisco IT Essentials</h4>
+            <p>Hardware, software, reti, manutenzione, diagnostica e risoluzione dei problemi.</p>
+            <footer><span>08/01/25 - 03/06/25</span><strong>70h</strong></footer>
+          </article>
+        </div>
+      </div>
+
+      <div class="year-block reveal" data-year-block="quinto">
+        <div class="year-title">
+          <span>03</span>
+          <div>
+            <h3>Quinto anno</h3>
+            <p>Chiusura del percorso: orientamento, competenze trasversali e collegamento tra territorio, tecnologia e futuro.</p>
+          </div>
+        </div>
+        <div class="cards-grid">
+          <article class="activity-card" data-year="quinto" data-title="Learn to Grow Softer Future" data-date="07/01/2026 - 16/01/2026" data-hours="36 ore circa" data-detail="Progetto orientato alla crescita personale e alle competenze trasversali. È servito a riflettere su comunicazione, responsabilità, lavoro di gruppo e atteggiamento da portare in contesti professionali.">
+            <div class="card-chip">soft skills</div>
+            <h4>Learn to Grow Softer Future</h4>
+            <p>Percorso su crescita personale, orientamento e competenze utili nel lavoro.</p>
+            <footer><span>07/01/26 - 16/01/26</span><strong>36h</strong></footer>
+          </article>
+          <article class="activity-card" data-year="quinto" data-title="Vivere la montagna: dalla bussola all'app" data-date="03/03/2026 - 12/05/2026" data-hours="12 ore circa" data-detail="Attività che collega territorio, orientamento e strumenti digitali. Il titolo richiama il passaggio dalla bussola alle applicazioni: un modo per unire esperienza pratica, ambiente e tecnologia.">
+            <div class="card-chip">territorio</div>
+            <h4>Vivere la montagna: dalla bussola all'app</h4>
+            <p>Esperienza tra orientamento, ambiente e uso della tecnologia per leggere il territorio.</p>
+            <footer><span>03/03/26 - 12/05/26</span><strong>12h</strong></footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="competenze">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Competenze finali</p>
+        <h2>Cosa porto all'esame</h2>
+        <p>Le attività non sono state solo ore da completare: ognuna ha lasciato competenze diverse e spendibili.</p>
+      </div>
+      <div class="skills-layout">
+        <div class="skill-list reveal">
+          <div class="skill-row"><span>Competenze digitali e tecniche</span><strong>90%</strong><i style="--level:90%"></i></div>
+          <div class="skill-row"><span>Sicurezza e responsabilità</span><strong>80%</strong><i style="--level:80%"></i></div>
+          <div class="skill-row"><span>Comunicazione e sintesi</span><strong>85%</strong><i style="--level:85%"></i></div>
+          <div class="skill-row"><span>Orientamento al futuro</span><strong>75%</strong><i style="--level:75%"></i></div>
+        </div>
+        <div class="skill-note reveal">
+          <h3>Collegamento con Informatica</h3>
+          <p>
+            La parte più vicina al mio indirizzo è stata la certificazione Cisco IT Essentials, perché riguarda
+            componenti hardware, installazione e manutenzione, sistemi operativi, reti e troubleshooting.
+            Anche gli altri progetti hanno completato il percorso: sicurezza, comunicazione, innovazione e capacità
+            di presentare il proprio lavoro sono aspetti importanti per qualsiasi tecnico informatico.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section mappa" id="mappa">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Vista alternativa</p>
+        <h2>Mappa del percorso PCTO</h2>
+        <p>
+          Al posto della foto del registro ho inserito una mappa grafica creata apposta per la presentazione:
+          è più pulita, più professionale e riassume il percorso senza mostrare il documento originale.
+        </p>
+      </div>
+
+      <div class="map-board reveal" aria-label="Mappa grafica del percorso PCTO del triennio">
+        <div class="map-orbit" aria-hidden="true"></div>
+        <article class="map-column terzo-map">
+          <div class="map-year">3° anno</div>
+          <h3>Prime basi</h3>
+          <p>Sicurezza, metodo di lavoro e comunicazione scientifica.</p>
+          <div class="map-nodes">
+            <span>Premio Asimov</span>
+            <span>Scuola Aumentata</span>
+            <span>Sicurezza INAIL</span>
+          </div>
+        </article>
+
+        <article class="map-column quarto-map">
+          <div class="map-year">4° anno</div>
+          <h3>Competenze tecniche</h3>
+          <p>Innovazione, reti, hardware, sistemi operativi e troubleshooting.</p>
+          <div class="map-nodes">
+            <span>Maker Faire</span>
+            <span>Premio Asimov</span>
+            <span>Cisco IT Essentials</span>
+          </div>
+        </article>
+
+        <article class="map-column quinto-map">
+          <div class="map-year">5° anno</div>
+          <h3>Orientamento finale</h3>
+          <p>Soft skills, territorio e collegamento tra tecnologia e futuro.</p>
+          <div class="map-nodes">
+            <span>Grow Softer Future</span>
+            <span>Dalla bussola all'app</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section conclusion" id="conclusione">
+      <div class="conclusion-card reveal">
+        <p class="eyebrow">Conclusione personale</p>
+        <h2>Un percorso utile per scegliere con più consapevolezza</h2>
+        <p>
+          Guardando le attività nel loro insieme, il PCTO mi ha fatto capire che l'informatica non è solo codice:
+          è metodo, sicurezza, curiosità, problem solving e capacità di comunicare. Nel triennio sono passato
+          da esperienze più generali a progetti più tecnici e orientativi, arrivando all'esame con una visione più
+          concreta di quello che potrei fare dopo il diploma.
+        </p>
+        <a class="btn primary" href="#home">Torna su</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Presentazione FLS/PCTO · Favoino Mario · Classe 5ª Sezione L · I.I.S. Einstein-De Lorenzo</p>
+  </footer>
+
+  <div class="modal" id="activityModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-card">
+      <button class="modal-close" type="button" data-close-modal aria-label="Chiudi">×</button>
+      <p class="eyebrow" id="modalMeta">Attività</p>
+      <h3 id="modalTitle"></h3>
+      <div class="modal-info">
+        <span id="modalDate"></span>
+        <strong id="modalHours"></strong>
+      </div>
+      <p id="modalDetail"></p>
+    </article>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
